@@ -1,0 +1,34 @@
+* About to connect() to new55fe5dc4540c5.amocrm.ru port 443 (#3)
+*   Trying 95.213.171.75...
+* Connected to new55fe5dc4540c5.amocrm.ru (95.213.171.75) port 443 (#3)
+* skipping SSL peer certificate verification
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=*.amocrm.ru,OU=Domain Control Validated
+* 	start date: Aug 08 15:43:38 2016 GMT
+* 	expire date: Aug 31 14:08:50 2017 GMT
+* 	common name: *.amocrm.ru
+* 	issuer: CN=Go Daddy Secure Certificate Authority - G2,OU=http://certs.godaddy.com/repository/,O="GoDaddy.com, Inc.",L=Scottsdale,ST=Arizona,C=US
+> POST /private/api/v2/json/contacts/set HTTP/1.1
+User-Agent: amoCRM-API-client/1.0
+Host: new55fe5dc4540c5.amocrm.ru
+Accept: */*
+Cookie: BITRIX_SM_SOUND_LOGIN_PLAYED=Y; user_lang=ru; BITRIX_SM_SALE_UID=0; BITRIX_SM_LOGIN=prazdnikmeda%40yandex.ru; session_id=gabrhjapmscg9ftq2lp44k5ic96e2jdbse9acr98qp65djoe1jq0
+Content-Length: 803
+Content-Type: application/x-www-form-urlencoded
+
+* upload completely sent off: 803 out of 803 bytes
+< HTTP/1.1 200 OK
+< Server: nginx
+< Date: Fri, 18 Nov 2016 20:42:24 GMT
+< Content-Type: application/json; charset="utf-8"
+< Transfer-Encoding: chunked
+< Connection: keep-alive
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+< Pragma: no-cache
+< P3P: policyref="/bitrix/p3p.xml", CP="NON DSP COR CUR ADM DEV PSA PSD OUR UNR BUS UNI COM NAV INT DEM STA"
+* Replaced cookie user_lang="ru" for domain amocrm.ru, path /, expire 1637268144
+< Set-Cookie: user_lang=ru; expires=Thu, 18-Nov-2021 20:42:24 GMT; Max-Age=157766400; path=/; domain=.amocrm.ru
+< 
+* Connection #3 to host new55fe5dc4540c5.amocrm.ru left intact
